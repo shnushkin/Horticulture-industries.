@@ -1,0 +1,6 @@
+packages:
+  - '.'
+storeDir: node_modules/.pnpm-store
+nodeLinker: hoisted
+allowBuilds:
+  esbuild: true
