@@ -18,5 +18,4 @@ Downloaded from Unsplash image delivery and stored locally. Illustrative stock i
 
 - `indoor.webp`: https://images.unsplash.com/photo-1485955900006-10f4d324d411
 - `growing.webp`: https://images.unsplash.com/photo-1416879595882-3373a0480b5b
-- `outdoor.webp`: https://images.unsplash.com/photo-1463320726281-696a485928c7
 - `leaf-detail.webp`: https://images.unsplash.com/photo-1501004318641-b39e6451bec6

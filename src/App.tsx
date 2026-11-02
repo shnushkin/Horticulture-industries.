@@ -19,9 +19,9 @@ const navigation = [
 ]
 
 const spaces = [
-  { number: '01', title: 'Inside, alive.', detail: 'A little nature. A different feeling.', image: '/images/indoor.webp', alt: 'Sunlit interior filled with lush green houseplants', tag: 'LIVING SPACES' },
-  { number: '02', title: 'Room to grow.', detail: 'Small beginnings. Endless possibility.', image: '/images/growing.webp', alt: 'Young green plants growing in terracotta pots', tag: 'GROWING SPACES' },
-  { number: '03', title: 'A wilder outside.', detail: 'More life in the places between.', image: '/images/outdoor.webp', alt: 'Lush green garden foliage in natural light', tag: 'OUTDOOR SPACES' },
+  { number: '01', title: 'Inside, alive.', detail: 'A little nature. A different feeling.', image: '/images/indoor.webp', alt: 'A sculptural succulent in a pale turquoise pot', tag: 'LIVING SPACES' },
+  { number: '02', title: 'Room to grow.', detail: 'Small beginnings. Endless possibility.', image: '/images/growing.webp', alt: 'A gardening trowel and potting soil ready for planting', tag: 'GROWING SPACES' },
+  { number: '03', title: 'Naturally inspired.', detail: 'More life in the everyday.', image: '/images/leaf-detail.webp', alt: 'A branch of glossy green leaves against a warm white background', tag: 'EVERYDAY NATURE' },
 ]
 
 export default function App() {
@@ -89,7 +89,7 @@ export default function App() {
 
         <section id="approach" className="approach-section">
           <div className="container approach-grid grid">
-            <div className="approach-visual"><img src="/images/leaf-detail.webp" alt="Close-up of the sculptural texture and veins of green leaves" width="900" height="1050" loading="lazy" /><div className="approach-note"><Sprout /><span>Good things take roots.</span></div></div>
+            <div className="approach-visual"><img src="/images/hero-greenhouse.webp" alt="Layered palms and ferns growing in the warm light of a greenhouse" width="1024" height="1536" loading="lazy" /><div className="approach-note"><Sprout /><span>Good things take roots.</span></div></div>
             <div className="approach-copy"><div className="section-label"><span className="tiny-line" /> NATURALLY FORWARD</div><h2>More than plants.<br />A way of <span className="serif">seeing.</span></h2><p>A greener world starts with the way we see the one around us. An empty corner becomes a small jungle. An ordinary day becomes a reason to step outside.</p><div className="approach-principles"><div><span>01</span><p>Look closer.<small>Find possibility in the everyday.</small></p></div><div><span>02</span><p>Grow thoughtfully.<small>Make space for a connection to nature.</small></p></div><div><span>03</span><p>Keep growing.<small>Let curiosity lead the way.</small></p></div></div></div>
           </div>
         </section>
