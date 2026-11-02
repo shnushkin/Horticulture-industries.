@@ -2,6 +2,9 @@
 
 A responsive branding concept built locally with React, TypeScript, Tailwind CSS 4, and Vite. Forest green, warm ivory, chartreuse, DM Sans, and Instrument Serif set the visual direction. The Horticulture Industries wordmark appears in the header, hero, and footer.
 
+- Website: https://horticulture-industries.netlify.app
+- GitHub: https://github.com/shnushkin/Horticulture-industries.
+
 ## Local development
 
 Use Node.js 24 and pnpm 11.25.0 (the exact package-manager version is declared in `package.json`).
@@ -44,6 +47,6 @@ The project uses the `main` branch. Save focused checkpoints with Git and push t
 - Node: `24`
 - pnpm: `11.25.0`
 
-Once imported from GitHub, pushes to `main` trigger a fresh Netlify deployment. Netlify assigns a `.netlify.app` address; a custom domain can be attached later.
+The `main` branch is connected to Netlify with a read-only repository deploy key and a push webhook. Pushes to `main` trigger a fresh Netlify build from GitHub. A custom domain can be attached later.
 
 See `ASSETS.md` for image provenance and the generated hero image brief.
