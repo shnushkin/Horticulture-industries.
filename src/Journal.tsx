@@ -48,10 +48,11 @@ function Article({ note, dismiss }: { note: FieldNote; dismiss: () => void }) {
   const dialog = useRef<HTMLDialogElement>(null)
   useEffect(() => {
     const element = dialog.current
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
     const previousOverflow = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     element?.showModal()
-    return () => { document.body.style.overflow = previousOverflow; element?.close() }
+    return () => { document.body.style.overflow = previousOverflow; element?.close(); previousFocus?.focus({ preventScroll: true }) }
   }, [note])
   return <dialog ref={dialog} className="article-dialog" aria-labelledby="article-title" onCancel={event => { event.preventDefault(); dismiss() }} onClick={event => { if (event.target === event.currentTarget) dismiss() }}>
     <article className="article-content"><div className="article-toolbar"><span>HORTICULTURE INDUSTRIES / FIELD NOTES</span><button type="button" autoFocus onClick={dismiss} aria-label="Close article">Close <span aria-hidden="true">×</span></button></div><img className="article-cover" src={note.image} alt={note.alt} width="1536" height="1024" /><div className="article-body"><div className="section-label">{note.category}</div><h2 id="article-title">{note.title}</h2><p className="article-deck">{note.excerpt}</p>{note.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<aside className="article-source"><span>FURTHER READING</span><a href={note.source.url} target="_blank" rel="noreferrer">{note.source.label} <span aria-hidden="true">↗</span></a></aside></div></article>
