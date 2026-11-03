@@ -1,6 +1,6 @@
 # Horticulture Industries
 
-A responsive branding concept built locally with React, TypeScript, Tailwind CSS 4, and Vite. Forest green, warm ivory, chartreuse, DM Sans, and Instrument Serif set the visual direction. The Horticulture Industries wordmark appears in the header, hero, and footer.
+A responsive horticulture website built locally with React, TypeScript, Tailwind CSS 4, and Vite. The dark theme combines deep forest green, botanical sage, warm ivory, and natural sunlight. Generated photographs show commercial hydroponic channels, coco-coir vegetable crops, and large greenhouse growing spaces. The Horticulture Industries wordmark appears in the header, hero, and footer.
 
 - Website: https://horticulture-industries.netlify.app
 - GitHub: https://github.com/shnushkin/Horticulture-industries.
@@ -25,13 +25,19 @@ The build includes strict TypeScript checking. Production output goes in `dist/`
 
 ## Design review
 
-- Hero: brand name, editorial headline, greenhouse image, and anchor link.
+- Hero: brand name, editorial headline, wide industrial greenhouse image, and anchor link.
 - Our roots: introductory brand story.
-- A world of green: three illustrative growing environments.
+- Growing systems: hydroponic, coco-coir, and greenhouse environments.
 - Our approach: botanical imagery and editorial principles.
+- Field notes: three original articles with shareable URLs, an accessible reading dialog, and primary horticultural references.
+- Background: subtle SVG vines and slowly moving window-pane light; respects reduced-motion settings and can be paused in the footer.
 - Footer: full brand wordmark and concept disclosure.
 
-The site is a visual concept. All copy is draft brand language, and images are illustrative. It makes no claims about verified company services, history, customers, or certifications. There are no commerce, contact-form, or account features. Navigation links scroll to the corresponding sections. The mobile menu supports Escape and returns focus to its trigger.
+The imagery is clearly disclosed as AI-generated concept photography. The site makes no claims about company facility size, history, customers, or certifications. There are no commerce, contact-form, or account features. Navigation links scroll to the corresponding sections. The mobile menu and article dialog support Escape and native focus handling.
+
+## Updating Field notes
+
+Articles live in the `notes` array in `src/Journal.tsx`. Add or edit a title, category, excerpt, image, paragraphs, and source link there. Each article can be shared using `?article=its-slug`; opening that URL directly displays the article. Publishing an update uses the same GitHub-to-Netlify workflow. This is a static journal and does not require a CMS or a database.
 
 ## Git and GitHub
 
@@ -49,4 +55,4 @@ The project uses the `main` branch. Save focused checkpoints with Git and push t
 
 The `main` branch is connected to Netlify with a read-only repository deploy key and a push webhook. Pushes to `main` trigger a fresh Netlify build from GitHub. A custom domain can be attached later.
 
-See `ASSETS.md` for image provenance and the generated hero image brief.
+See `ASSETS.md` for final image prompts, provenance, and editorial references.
