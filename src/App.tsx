@@ -33,6 +33,12 @@ export default function App() {
   const menuButton = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
+    // Resolve section links after React has mounted their target elements.
+    const section = document.getElementById(window.location.hash.slice(1))
+    section?.scrollIntoView({ behavior: 'instant', block: 'start' })
+  }, [])
+
+  useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape' && menuOpen) {
         setMenuOpen(false)
