@@ -92,6 +92,22 @@ export default function App() {
           </div>
         </section>
 
+        <section id="indoor" className="indoor-section container" aria-labelledby="indoor-title">
+          <div className="section-heading flex items-end justify-between">
+            <div><div className="section-label"><span className="tiny-line" /> INDOOR GROWING</div><h2 id="indoor-title">Growing, in a<br /><span className="serif">new light.</span></h2></div>
+            <p>Leafy greens below. Vine crops above.<br />A closer look at the light, air, and structure<br className="desktop-break" /> of an indoor growing space.</p>
+          </div>
+          <figure className="indoor-figure">
+            <img src="/images/indoor-led-violet.webp" alt="Purple LED fixtures illuminate short hydroponic lettuce and basil, medium-height kale and peppers, and tall trellised vegetable crops in an industrial indoor grow room, with exposed ventilation ducts, fans, and a large pleated air-filter bank clearly visible" width="1536" height="1024" loading="lazy" />
+            <figcaption><span>ANOTHER PERSPECTIVE ON GROWING</span><span>AI-generated indoor cultivation concept</span></figcaption>
+          </figure>
+          <div className="indoor-details">
+            <div><span>01 / THE LIGHT</span><h3>LEDs in view.</h3><p>Suspended fixtures bring a violet glow to the growing floor.</p></div>
+            <div><span>02 / THE AIR</span><h3>The whole environment.</h3><p>Exposed ductwork, circulation fans, and industrial air filtration.</p></div>
+            <div><span>03 / THE CROP</span><h3>Room for every height.</h3><p>Low leafy greens, mid-height vegetables, and tall trellised crops.</p></div>
+          </div>
+        </section>
+
         <section id="approach" className="approach-section">
           <div className="container approach-grid grid">
             <div className="approach-visual"><img src="/images/coco-coir-vegetables.webp" alt="Sunlit commercial vegetable greenhouse with coco-coir substrates, drip irrigation, and trellised crops" width="1536" height="1024" loading="lazy" /><div className="approach-note"><Sprout /><span>Good things take roots.</span></div></div>
@@ -104,7 +120,7 @@ export default function App() {
         <section id="connect" className="connect-section"><div className="container connect-inner flex items-center justify-between"><div><div className="section-label"><span className="tiny-line" /> THE NEXT CHAPTER</div><h2>Something good<br />starts with <span className="serif">a seed.</span></h2></div><div className="connect-aside"><Sprout /><p>A new perspective.<br />A little inspiration.<br />A greener place to begin.</p><a href="#home" className="text-link inline-flex items-center gap-6">Back to our roots <Arrow diagonal /></a></div></div></section>
       </main>
 
-      <footer className="site-footer"><div className="container"><div className="footer-main flex items-start justify-between"><a href="#home" className="brand-link" aria-label="Horticulture Industries home"><Wordmark footer /></a><p>For the spaces we grow.<br />And the future we share.</p><a href="#home" className="footer-top inline-flex items-center gap-4">Back to top <Arrow diagonal /></a></div><div className="footer-bottom flex items-center justify-between"><p>© {new Date().getFullYear()} Horticulture Industries</p><span>Brand concept · AI-generated greenhouse imagery</span><button type="button" className="motion-toggle" aria-pressed={motionPaused} onClick={() => setMotionPaused(!motionPaused)}><span aria-hidden="true">☼</span> {motionPaused ? 'Resume light' : 'Pause light'}</button></div></div></footer>
+      <footer className="site-footer"><div className="container"><div className="footer-main flex items-start justify-between"><a href="#home" className="brand-link" aria-label="Horticulture Industries home"><Wordmark footer /></a><p>For the spaces we grow.<br />And the future we share.</p><a href="#home" className="footer-top inline-flex items-center gap-4">Back to top <Arrow diagonal /></a></div><div className="footer-bottom flex items-center justify-between"><p>© {new Date().getFullYear()} Horticulture Industries</p><span>Brand concept · AI-generated growing imagery</span><button type="button" className="motion-toggle" aria-pressed={motionPaused} onClick={() => setMotionPaused(!motionPaused)}><span aria-hidden="true">☼</span> {motionPaused ? 'Resume light' : 'Pause light'}</button></div></div></footer>
     </>
   )
 }

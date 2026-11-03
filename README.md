@@ -28,6 +28,7 @@ The build includes strict TypeScript checking. Production output goes in `dist/`
 - Hero: brand name, editorial headline, wide industrial greenhouse image, and anchor link.
 - Our roots: introductory brand story.
 - Growing systems: hydroponic, coco-coir, and greenhouse environments.
+- Indoor growing: a full-frame violet LED grow-room image with varied crop heights, visible fixtures, ventilation, and industrial filtration.
 - Our approach: botanical imagery and editorial principles.
 - Field notes: three original articles with shareable URLs, an accessible reading dialog, and primary horticultural references.
 - Background: subtle SVG vines and slowly moving window-pane light; respects reduced-motion settings and can be paused in the footer.

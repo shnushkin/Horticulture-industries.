@@ -1,6 +1,6 @@
 # Visual assets
 
-All current greenhouse and crop photographs were generated with the built-in Image Generation tool and saved as optimized WebP files under `public/images/`. They are illustrative commercial-growing concepts, not photographs of actual Horticulture Industries facilities. Earlier ornamental/stock imagery has been replaced.
+All current greenhouse, indoor-growing, and crop photographs were generated with the built-in Image Generation tool and saved as optimized WebP files under `public/images/`. They are illustrative commercial-growing concepts, not photographs of actual Horticulture Industries facilities. Earlier ornamental/stock imagery has been replaced.
 
 The palette uses deep forest green, botanical sage, warm ivory, and restrained sunlight accents. The sprout mark, subtle vine silhouettes, arrows, and window-light effects are native SVG/CSS. Light motion uses transforms and opacity, supports reduced-motion preferences, and has a pause control in the footer.
 
@@ -29,6 +29,18 @@ Built-in tool; 1536 × 1024; optimized as WebP at quality 86.
 Built-in tool; 1536 × 1024; optimized as WebP at quality 86.
 
 > Use case: photorealistic-natural. Asset type: landscape editorial photograph for a commercial hydroponic and coco-coir horticulture website. A wide view of a vast modern industrial greenhouse propagation and leafy-vegetable growing area. Neatly organized acres of commercial rolling benches contain many trays of healthy young green vegetable transplants in coco-coir plugs, with established rows of kale, baby bok choy and leafy herbs in dedicated zones farther back. Visible professional irrigation manifolds, narrow overhead irrigation lines, clean concrete aisles, pale metal growing benches and high glazed roof trusses repeated into the distance. Beautiful clear morning sunlight shines through enormous greenhouse roof windows, distinct warm light shafts and long geometric window-pane shadows. Foreground crisp fresh green vegetable leaves, large operational scale evident, natural forest-green and sage palette balanced by ivory infrastructure, professional controlled-environment agriculture photography with subtle atmospheric depth. No ornamental tropical houseplants, no decorative pots, no ferns, no palms, no cannabis, no ornamental flowers, no people, no logos, no lettering, no watermark. Landscape orientation 3:2, one photograph not web design.
+
+### public/images/indoor-led-violet.webp
+
+Built-in tool; 1536 × 1024; optimized as WebP at quality 86. Selected by the user from violet, pink, and red-accent LED concepts. Displayed at its complete 3:2 aspect ratio so the crop heights, lighting fixtures, and filtration equipment remain visible.
+
+> Use case: photorealistic-natural.
+> Asset type: landscape editorial photograph option for a professional Horticulture Industries homepage section about indoor cultivation under LED lighting.
+> Primary request: a spacious industrial indoor vegetable growing facility, with clear variation in crop height and clearly visible LED lighting AND industrial air filtration/HVAC, all three equally legible.
+> Scene: large enclosed insulated warehouse grow room, clean concrete aisle, orderly separate crop zones. Short hydroponic lettuce and basil nearest the camera; medium-height leafy kale and pepper plants in the middle; taller trained tomato and cucumber plants in coco-coir grow bags along the side. Realistic variation in height, not a wall of uniform foliage.
+> Infrastructure: visible suspended linear LED grow fixtures mounted above crop zones, exposed galvanized supply and return ductwork, industrial air-handler with a prominent rectangular pleated filter-bank intake on the back/side wall, circulation fans and tidy irrigation lines. Air handling and filter housings must be easy to see, not concealed behind crops or lost in darkness.
+> Style: premium architectural and horticultural editorial photography, credible working facility, highly detailed leaf textures and industrial hardware, balanced exposure throughout, wide 3:2 landscape image. Camera at human eye level from a front corner looking down the broad central aisle; enough ceiling included to see lights and ducts, enough floor visible to understand scale. Deep depth of field, crisp foreground and background. No people, no cannabis, no ornamental houseplants, no pots arranged as decor, no text, logos, labels, collage, watermark, fog or smoky beams. Not a greenhouse, no glass roof or sunlight. Keep leafy plants recognizably green despite the lighting.
+> Lighting: distinctly purple-violet LED grow lighting with a controlled violet wash on the ceiling and silver equipment. Neutral-white maintenance fill light keeps green crops, pleated filter panels, LED bars and all mechanical equipment clearly readable. Professional, restrained saturation, bright clean aisle; avoid an overwhelmingly purple monochrome room.
 
 ## Fonts
 
