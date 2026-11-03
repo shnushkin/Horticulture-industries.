@@ -70,7 +70,7 @@ main, .site-footer { position: relative; z-index: 1; }
 .journal-card > p { margin-top: 13px; font-size: 12px; line-height: 1.8; color: var(--muted); max-width: 310px; }
 .journal-read { display: inline-flex; align-items: center; justify-content: space-between; gap: 35px; margin-top: 18px; padding: 9px 0; border: 0; border-bottom: 1px solid var(--line); font-size: 11px; color: #d5e1ca; background: transparent; cursor: pointer; }
 .journal-read:hover { border-color: var(--sage); color: var(--sage); }
-.article-dialog { padding: 0; width: min(820px, calc(100% - 40px)); max-height: 90dvh; border: 1px solid #aec39e42; border-radius: 8px; background: #0c2117; color: var(--ink); overscroll-behavior: contain; }
+.article-dialog { margin: auto; padding: 0; width: min(820px, calc(100% - 40px)); max-height: 90dvh; border: 1px solid #aec39e42; border-radius: 8px; background: #0c2117; color: var(--ink); overscroll-behavior: contain; }
 .article-dialog::backdrop { background: #020905cf; backdrop-filter: blur(9px); }
 .article-content { width: 100%; }
 .article-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 26px; background: #0c2117; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 1; }
