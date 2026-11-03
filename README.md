@@ -33,6 +33,7 @@ The build includes strict TypeScript checking. Production output goes in `dist/`
 - Field notes: three original articles with shareable URLs, an accessible reading dialog, and primary horticultural references.
 - Background: subtle SVG vines and slowly moving window-pane light; respects reduced-motion settings and can be paused in the footer.
 - Footer: full brand wordmark and concept disclosure.
+- Typography: small labels and captions are at least 14px, with larger supporting copy and responsive spacing for readability.
 
 The imagery is clearly disclosed as AI-generated concept photography. The site makes no claims about company facility size, history, customers, or certifications. There are no commerce, contact-form, or account features. Navigation links scroll to the corresponding sections. The mobile menu and article dialog support Escape and native focus handling.
 

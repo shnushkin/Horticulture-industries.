@@ -78,7 +78,7 @@ export default function App() {
           <div className="hero-visual">
             <img className="hero-photo" src="/images/commercial-greenhouse.webp" alt="Sunlight streaming through a vast industrial greenhouse with hydroponic greens and coco-coir vegetable rows" fetchPriority="high" width="1536" height="1024" />
             <div className="hero-photo-shade" />
-            <div className="growth-seal" aria-label="Rooted in possibility"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><path id="seal-path" d="M60,60m-43,0a43,43 0 1,1 86,0a43,43 0 1,1 -86,0" /></defs><text><textPath href="#seal-path" startOffset="0%">ROOTED IN POSSIBILITY · ROOTED IN POSSIBILITY · </textPath></text></svg><Sprout /></div>
+            <div className="growth-seal" aria-label="Rooted in possibility"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><path id="seal-path" d="M60,60m-43,0a43,43 0 1,1 86,0a43,43 0 1,1 -86,0" /></defs><text><textPath href="#seal-path" startOffset="0%">ROOTED IN POSSIBILITY · </textPath></text></svg><Sprout /></div>
             <div className="photo-caption flex items-end justify-between"><div><span className="caption-label">THE NEXT GENERATION OF GROWING.</span><p>Possibility, under glass.</p></div><a href="#about" className="round-link" aria-label="Discover our roots"><Arrow diagonal /></a></div>
             <span className="photo-index">01 / THE ART OF GROWING</span>
           </div>
