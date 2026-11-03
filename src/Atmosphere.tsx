@@ -9,5 +9,5 @@ function Vine({ mirrored = false }: { mirrored?: boolean }) {
 }
 
 export default function Atmosphere({ paused }: { paused: boolean }) {
-  return <div className="site-atmosphere" data-paused={paused} aria-hidden="true"><div className="ambient-glow" /><svg className="ambient-vines" viewBox="0 0 1440 1200" preserveAspectRatio="xMidYMid slice" fill="none"><Vine /><Vine mirrored /></svg><div className="window-light window-light-one" /><div className="window-light window-light-two" /><div className="window-light window-light-three" /></div>
+  return <div className="site-atmosphere" data-paused={paused} aria-hidden="true"><div className="ambient-glow" /><svg className="ambient-vines" viewBox="0 0 1440 1200" preserveAspectRatio="xMidYMid slice" fill="none"><Vine /><Vine mirrored /></svg><div className="window-light" /></div>
 }

@@ -7,11 +7,9 @@ main, .site-footer { position: relative; z-index: 1; }
 .vine-stem, .vine-tendril { stroke: currentColor; stroke-width: 1.6; }
 .vine-leaf { fill: #59764a; fill-opacity: .5; stroke: currentColor; stroke-width: .8; }
 .vine-vein { stroke: #b6c9a3; stroke-width: .6; opacity: .5; }
-.window-light { position: absolute; top: -45vh; height: 170vh; width: 38vw; max-width: 570px; background-image: repeating-linear-gradient(0deg, transparent 0 122px, #06150e 122px 133px), repeating-linear-gradient(90deg, #e9d8a970 0 102px, transparent 102px 116px); clip-path: polygon(18% 0, 74% 0, 100% 100%, 0 100%); mask-image: linear-gradient(transparent, #000 18%, #000 60%, transparent); filter: blur(3px); mix-blend-mode: screen; opacity: .09; transform: rotate(-28deg); transform-origin: 50% 0; will-change: transform, opacity; animation: window-drift 34s ease-in-out infinite alternate; }
-.window-light-one { left: 45%; }
-.window-light-two { left: -12%; top: -65vh; width: 33vw; opacity: .05; animation-duration: 43s; animation-delay: -19s; }
-.window-light-three { left: 83%; top: -35vh; width: 25vw; opacity: .055; animation-duration: 39s; animation-delay: -11s; }
-@keyframes window-drift { from { transform: translate3d(-65px, -25px, 0) rotate(-28deg); opacity: .055; } to { transform: translate3d(95px, 80px, 0) rotate(-24deg); opacity: .12; } }
+/* An oversized, offset pane grid covers both edges throughout its slow drift. */
+.window-light { --pane-width: 153px; --pane-height: 190px; --mullion: 14px; position: absolute; top: 50%; left: 50%; width: calc(100vw + 100vh); height: calc(100vw + 100vh); background-image: repeating-linear-gradient(0deg, transparent 0 calc(var(--pane-height) - var(--mullion)), #04110b calc(var(--pane-height) - var(--mullion)) var(--pane-height)), repeating-linear-gradient(90deg, #f0e2b58c 0 calc(var(--pane-width) - var(--mullion)), #04110b calc(var(--pane-width) - var(--mullion)) var(--pane-width)); background-position: 34px 68px; filter: blur(2px); mix-blend-mode: screen; opacity: .18; transform: translate3d(-50%, -50%, 0) rotate(-26deg); will-change: transform, opacity; animation: window-drift 38s ease-in-out infinite alternate; }
+@keyframes window-drift { from { transform: translate3d(calc(-50% - 45px), calc(-50% - 30px), 0) rotate(-28deg); opacity: .15; } to { transform: translate3d(calc(-50% + 45px), calc(-50% + 30px), 0) rotate(-24deg); opacity: .21; } }
 .site-atmosphere[data-paused="true"] .window-light { animation-play-state: paused; }
 .announcement { background: #10271ae0; border-bottom: 1px solid var(--line); height: auto; min-height: 42px; padding: 8px 16px; line-height: 1.5; text-align: center; }
 .site-header { z-index: 20; }
@@ -142,9 +140,7 @@ main, .site-footer { position: relative; z-index: 1; }
   .indoor-details h3 { font-size: 23px; margin-top: 9px; }
   .indoor-details p { max-width: none; margin-top: 7px; }
   .ambient-vines { width: 160%; left: -30%; opacity: .12; }
-  .window-light { width: 85vw; opacity: .07; animation-duration: 42s; filter: blur(4px); }
-  .window-light-two { display: none; }
-  .window-light-three { left: 65%; width: 50vw; }
+  .window-light { --pane-width: 110px; --pane-height: 150px; --mullion: 11px; animation-duration: 42s; }
   .hero { display: flex; flex-direction: column; min-height: 0; gap: 0; margin-top: 6px; margin-bottom: 30px; }
   .hero-copy { padding: 32px 22px 35px; }
   .hero .eyebrow { font-size: 14px; letter-spacing: 1.3px; }
@@ -186,7 +182,7 @@ main, .site-footer { position: relative; z-index: 1; }
   .article-body > p.article-deck { font-size: 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .window-light { animation: none; transform: rotate(-26deg); opacity: .055; will-change: auto; }
+  .window-light { animation: none; transform: translate3d(-50%, -50%, 0) rotate(-26deg); opacity: .18; will-change: auto; }
   .motion-toggle { display: none; }
 }
 

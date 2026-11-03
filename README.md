@@ -31,7 +31,7 @@ The build includes strict TypeScript checking. Production output goes in `dist/`
 - Indoor growing: a full-frame violet LED grow-room image with varied crop heights, visible fixtures, ventilation, and industrial filtration.
 - Our approach: botanical imagery and editorial principles.
 - Field notes: three original articles with shareable URLs, an accessible reading dialog, and primary horticultural references.
-- Background: subtle SVG vines and slowly moving window-pane light; respects reduced-motion settings and can be paused in the footer.
+- Background: subtle SVG vines and a brighter, offset window-pane light pattern spanning the full viewport; respects reduced-motion settings and can be paused in the footer.
 - Footer: full brand wordmark and concept disclosure.
 - Typography: small labels and captions are at least 14px, with larger supporting copy and responsive spacing for readability.
 
